@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory
+        android:title="@string/pref_currency_category_title">
+
+        <ListPreference
+            android:defaultValue="@string/pref_currency_label_usd"
+            android:icon="@drawable/ic_baseline_monetization_on_24px"
+            android:entries="@array/pref_currency_option_labels"
+            android:entryValues="@array/pref_currency_option_values"
+            android:key="@string/pref_currency_key"
+            android:title="@string/pref_currency_title" />
+
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:title="@string/pref_about_category_title">
+
+        <Preference
+            android:key="@string/pref_about_category_key"
+            android:icon="@drawable/ic_rocket"
+            android:title="@string/app_name"
+            android:selectable="false"
+            android:persistent="false"
+            android:summary="@string/version_code"/>
+
+        <Preference
+            android:key="@string/pref_open_source_licenses_key"
+            android:icon="@drawable/ic_baseline_star_24px"
+            android:title="@string/pref_open_source_licenses_title" />
+
+        <Preference
+            android:key="@string/pref_other_licenses_key"
+            android:icon="@drawable/ic_baseline_star_border_24px"
+            android:title="@string/pref_other_licenses_title"/>
+
+        <Preference
+            android:key="@string/pref_cryptocompare_api_key"
+            android:icon="@drawable/ic_baseline_cloud_download_24px"
+            android:title="@string/pref_cryptocompare_api_title"
+            android:summary="@string/pref_cryptocompare_api_url"/>
+
+        <Preference
+            android:key="@string/pref_developer_key"
+            android:icon="@drawable/ic_baseline_account_box_24px"
+            android:title="@string/pref_developer_title"/>
+
+
+    </PreferenceCategory>
+
+
+</PreferenceScreen>

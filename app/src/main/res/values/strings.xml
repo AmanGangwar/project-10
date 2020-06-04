@@ -1,0 +1,76 @@
+<resources>
+    <string name="app_name">ToTheMoon-Tracker</string>
+    <string name="app_name_short">ToTheMoon</string>
+    <string name="version_code">v1.0</string>
+
+
+    <!--Strings related to MainActivity-->
+    <string name="welcome_dialog_title">Welcome to ToTheMoon Tracker</string>
+    <string name="welcome_dialog_description">You can add your own coins or start with a demo portfolio</string>
+    <string name="welcome_dialog_button_left">Add own coins</string>
+    <string name="welcome_dialog_button_right">Demo portfolio</string>
+
+    <string name="search_coin_title">Search Coin</string>
+    <string name="search_coin_hint">What are you looking for…</string>
+    <string name="error_max_transactions">Maximum transactions reached</string>
+
+    <string name="search_item">search item</string>
+    <string name="settings_item">settings item</string>
+
+    <string name="portfolio_name">Portfolio</string>
+    <string name="graph_no_data">No Data</string>
+    <string name="graph_total_portfolio">Total Portfolio</string>
+
+    <string name="snack_bar_removed_coin">"%1$s removed!"</string>
+    <string name="undo_button">UNDO</string>
+
+    <string name="query_param_currency">fsym</string>
+
+    <!--Strings related to AddCoinActivity-->
+    <string name="add_transaction_activity_title">Add Transaction</string>
+
+    <string name="save_item">save</string>
+
+    <string name="trade_price_hint">Trade Price</string>
+    <string name="quantity_hint">Quantity</string>
+    <string name="input_error">Please input trade price and quantity</string>
+    
+    <string name="new_transaction_added">"%1$s transaction added"</string>
+
+    <!-- Strings related to SettingsActivity -->
+    <string name="pref_settings_title">Settings</string>
+
+    <string name="pref_currency_category_title">Currency Settings</string>
+
+    <string name="pref_currency_label_usd">USD</string>
+    <string name="pref_currency_label_eur">EUR</string>
+    <string name="pref_currency_label_jpy">JPY</string>
+    <string name="pref_currency_label_gbp">GBP</string>
+
+    <string name="pref_currency_value_usd">USD</string>
+    <string name="pref_currency_value_eur">EUR</string>
+    <string name="pref_currency_value_jpy">JPY</string>
+    <string name="pref_currency_value_gbp">GBP</string>
+
+    <string name="pref_currency_title">Default Currency</string>
+    <string name="pref_currency_key" translatable="false">currencyKey</string>
+
+
+    <string name="pref_about_category_title">About</string>
+    <string name="pref_open_source_licenses_title">Open-Source-Licenses</string>
+    <string name="pref_other_licenses_title">Icons and Fonts Licenses</string>
+    <string name="pref_cryptocompare_api_title">Powered by CryptoCompare API</string>
+    <string name="pref_cryptocompare_api_url" translatable="false">https://min-api.cryptocompare.com</string>
+    <string name="pref_developer_title">Developer</string>
+
+    <string name="pref_about_category_key" translatable="false">about</string>
+    <string name="pref_open_source_licenses_key" translatable="false">open_source_licenses</string>
+    <string name="pref_other_licenses_key" translatable="false">other_licenses</string>
+    <string name="pref_cryptocompare_api_key" translatable="false">cryptocompare_api</string>
+    <string name="pref_developer_key" translatable="false">developer</string>
+
+    <!--Accessibility-->
+    <string name="rocket_image_cd">Rocket Image</string>
+    <string name="moon_image_cd">Moon Image</string>
+
+</resources>
